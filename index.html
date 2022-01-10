@@ -1,0 +1,89 @@
+<!--====================================================================
+Front End Web Development Git Exercise
+
+TODO:
+1. Make you have created your "feature branch" to make changes.
+2. Put the image that you would like to use for yourself in the img/participants folder.
+3. Scroll down to lines 71-76 to find the HTML snippet that you can use to add yourself to the class list.
+4. Copy just the div element. It will be the section between the lines of equal signs.
+5. Paste the snippet between the "Paste Here" commented sections. Starting on line 85.
+6. Make edits to the h3 element to add your name and the img element to add your photo.
+    - Be sure to edit the src and alt! 
+    - Take note of the comment discussing aspect ratio.
+7. Save your changes, stage them, and commit them! You're ready for your pull request.
+
+Feel free to reach out the mentors with questions or if you get stuck!
+====================================================================-->
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Code Louisville Class Photo</title>
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="icon" type="image/x-icon" href="/img/site-imgs/favicon.ico">
+    <link href='https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap' rel='stylesheet'>
+</head>
+<body>
+    <header role = 'banner'>
+        <h1>Code Louisville Web 1 Class of Jan 2022</h1>
+    </header>
+    <nav role = 'navigation' aria-label ='pagenav'>
+        <ul>
+            <li>
+                <a href="https://www.codelouisville.org/">About</a>
+            </li>
+            <li>
+                <a href="https://www.codelouisville.org/mentor">Mentor</a>
+            </li>
+            <li>
+                <a href="https://www.codelouisville.org/contact">Contact</a>
+            </li>
+            <li>
+                <a href="https://www.codelouisville.org/hire">Hire</a>
+            </li>
+        </ul>
+    </nav>
+    <main role ='main'>
+        <h2>Mentors</h2>
+        <div class="member-grid">
+            <div class="member">
+                <h3>
+                    Jake St. Germain
+                </h3>
+                <img src="img/mentors/jake-st.germain.jpg" alt="Photo of Jake St. Germain">
+            </div>
+        </div>
+        <!-- Copy the below div element and paste below.-->
+        <!-- Edit it to finish adding yourself -->
+        <!--===============================================
+            <div class="member">
+                <h3>
+                    Placeholder
+                </h3>
+                <img src="img/participants/placeholder.jpg" alt="Photo of Placeholder">
+            </div>
+        ===============================================-->
+        <!-- Note: -->
+        <!-- Photos added will be resized to 1:1 (square) aspect ratio. -->
+        <!-- You may want to consider cropping your selected photo if this resizing will make it look strange.-->
+
+        <h2>Participants</h2>
+
+        <div class="member-grid">
+            <!--=========================Paste here=============================-->
+            
+            <!--=========================Paste here=============================-->
+        </div>
+    </main>
+    <footer role = 'contentinfo'>
+        <a href="https://www.codelouisville.org/">
+            <img src="img/site-imgs/codelou.webp" alt="Code Louisville Logo" class="code-lou-logo">
+        </a>
+    </footer>  
+    <script src='js/index.js'></script>
+</body>
+</html>
