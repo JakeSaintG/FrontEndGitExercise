@@ -38,5 +38,6 @@ git push origin <branch-name>
 - When you go to your forked repo on github.com, you should see a button that says "Compare & Pull Request". If not, refresh or go to the "Pull Requests" tab. Click on it when you find it.
     - A pull request is how most developers add their changes to the main branch of a repository. Code deployments tend to be made from "main" so this is important. They are typically done this way to allow other members of your team to check your code and approve the requests. I will be checking your additions and approving these requests if they are successful!
 - Now add a title and message. Sometimes this is auto-filled from your branch name and commit messages. 
-- Create the pull request! Nice! I'll get back to you when I see it. 
+- Create the pull request! You may see something along the lines of "Pending Approval" show up in red. This is intended!
+- You now also have a repository on your profile that shows that you contributed to something. Feel free to delete this forked repo or keep it around.
 
